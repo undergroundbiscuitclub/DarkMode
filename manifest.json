@@ -1,0 +1,18 @@
+{
+    "name": "DarkMode",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Come to the dark side...",
+    "permissions": [
+      "storage",
+      "webNavigation",
+      "<all_urls>"
+     ],
+    "browser_action": {
+      "name": "DarkMode",
+      "default_icon": "sun.png"
+    },
+    "background": {
+      "scripts": ["script.js"]
+    }
+}
